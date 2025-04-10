@@ -32,3 +32,27 @@ report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
 
 # Finder (MacOS) folder config
 .DS_Store
+
+# Editor directories and files
+.vscode
+
+# Build output
+/dist
+/out
+
+# Bun artifacts
+.bun
+node_modules
+
+# Environment variables
+.env.*
+!.env.example
+
+# Test Coverage
+coverage
+
+# Logs
+*.log
+
+# OS generated files
+Thumbs.db
